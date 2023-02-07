@@ -13,7 +13,7 @@ import s from "./HeaderSlider.module.scss"
 function HeaderSlider() {
   return (
 <div>
-<Container>
+<Container fluid>
 <Carousel>
     <Carousel.Item interval={1000}>
       <img

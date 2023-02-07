@@ -6,57 +6,53 @@
 .logo {
   width: 150px;
   height: auto;
-
 }
-.headerTop{
+.headerTop {
   background-color: #347758;
-  p{
+  p {
     color: white;
     font-size: 14px;
     font-weight: 700;
-    margin: 1rem ;
+    margin: 1rem;
     cursor: default;
   }
 }
-.headerTopSpan{
-  color: #F4C340;
+.headerTopSpan {
+  color: #f4c340;
 }
 
-
-.headerLeftNumber{
-  color: #3D3D3D;
-      font-size: 16px;
-    font-weight: 700;
-        cursor: default;
+.headerLeftNumber {
+  color: #3d3d3d;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: default;
 }
 
-.headerRight{
+.headerRight {
   display: flex;
-  justify-content: end;
+ justify-content: end;
   gap: 20px;
 }
 
-.hr{
+.hr {
   color: #3477585c;
 }
 
 @media screen and (max-width: 768px) {
-.langButoon{
-  display: none;
+  .langButoon {
+    display: none;
+  }
+  .headerLeft {
+    display: none;
+  }
+  .headerRight {
+    display: none;
+  }
+  .hr {
+    display: none;
+  }
+  .logo {
+    width: 120px;
+    height: auto;
+  }
 }
-.headerLeft{
-  display: none;
-}
-.headerRight{
-  display: none;
-}
-.hr{
-  display: none;
-}
-.logo{
-  width: 120px;
-  height: auto;
-}
-}
-  
-
