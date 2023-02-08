@@ -1,12 +1,25 @@
-.icon {
-  background: url("./../../img/7.2.avif") no-repeat;
-
-  height: 85px;
+.free {
+  margin: 30px 0;
+}
+.imglogo {
+  width: 180px;
 }
 
-.icons {
-  background: url("./../../img/7.1.webp") no-repeat;
-  margin-top: -5px;
-  height: 30px;
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: Poppins, HelveticaNeue, Helvetica Neue, sans-serif;
+  color: #222;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.text {
+  font-size: 0.7rem;
 }

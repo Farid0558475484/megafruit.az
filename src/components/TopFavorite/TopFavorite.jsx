@@ -20,7 +20,7 @@ function TopFavorite() {
             At vero eos et accusamus et iusto odio dignissimos ducimus qui
             blanditiis praesentium.
           </p>
-          <div className="d-flex justify-content-around">
+          <div className="d-flex justify-content-around mt-4">
             <div>
               <img src={img1} alt="" className="img-fluid "/>
               <p className={s.fruittext}>orange</p>

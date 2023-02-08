@@ -9,11 +9,12 @@ import img12 from "./../../img/1.2.webp"
 import img13 from "./../../img/1.3.webp"
 import img14 from "./../../img/1.4.webp"
 import s from "./HeaderSlider.module.scss"
+import FreeShipping from '../FreeShipping/FreeShipping'
 
 function HeaderSlider() {
   return (
 <div>
-<Container fluid>
+<Container fluid className={s.fluider}>
 <Carousel>
     <Carousel.Item interval={1000}>
       <img
@@ -47,6 +48,7 @@ function HeaderSlider() {
     </Carousel.Item>
   </Carousel>
 </Container>
+<FreeShipping />
 
 <Container className={s.headerslidermain}>
 <Row>

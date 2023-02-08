@@ -5,15 +5,16 @@ import HeaderSlider from './components/HeaderSlider/HeaderSlider';
 import TopFavorite from './components/TopFavorite/TopFavorite';
 import Garden from './components/Garden/Garden';
 import BestFood from './components/BestFood/BestFood';
-import FreeShipping from './components/FreeShipping/FreeShipping';
+import Fruits from './components/Fruits/Fruits';
+
 
 function App() {
   return (
     <div className="App">
       <Header />
       <HeaderSlider />
-      <FreeShipping />
       <TopFavorite />
+      <Fruits/>
       <BestFood/>
       <Garden/>
     </div>

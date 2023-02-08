@@ -43,7 +43,7 @@ function BestFood() {
                 <h1 className={s.titleh1}>02.</h1>
               </div>
 
-              <p className={s.titletext}>Always Fresh</p>
+              <p className={s.titletext}> 100% Organic</p>
               <p>
                 Maximus, purus quis tincidunt semper, felis tellus mole stie
                 nulla, in finibus erat magna et tortor phasellus a magna
@@ -64,7 +64,7 @@ function BestFood() {
                 <h1 className={s.titleh1}>03.</h1>
               </div>
 
-              <p className={s.titletext}>Always Fresh</p>
+              <p className={s.titletext}> Family healthy</p>
               <p>
                 Maximus, purus quis tincidunt semper, felis tellus mole stie
                 nulla, in finibus erat magna et tortor phasellus a magna
