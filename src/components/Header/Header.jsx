@@ -3,17 +3,17 @@ import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import s from "./Header.module.scss";
 // import logo from "../../img/logo.png";
-import logo from "../../img/logo111.png";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faTelegram } from "@fortawesome/free-brands-svg-icons";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faSquareInstagram } from "@fortawesome/free-brands-svg-icons";
+// import logo from "../../img/logo111.png";
+// import { library } from "@fortawesome/fontawesome-svg-core";
+// // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faPhone } from "@fortawesome/free-solid-svg-icons";
+// import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+// import { faTelegram } from "@fortawesome/free-brands-svg-icons";
+// import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+// import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+// import { faSquareInstagram } from "@fortawesome/free-brands-svg-icons";
 
-library.add(faPhone, faInstagram, faTelegram, faFacebook, faTwitter, faSquareInstagram);
+// library.add(faPhone, faInstagram, faTelegram, faFacebook, faTwitter, faSquareInstagram);
 
 function Header() {
   return (
@@ -22,7 +22,7 @@ function Header() {
         <Row>
           <Col>
            <div className="d-flex justify-content-between">
-           <p>
+           <p >
               {" "}
               Special Offers! – <span className={s.headerTopSpan}>
                 Get 30%
@@ -37,7 +37,9 @@ function Header() {
           </Col>
         </Row>
       </Container>
-      <Container>
+
+      
+      {/* <Container>
         <Row className="d-flex align-items-center">
           <Col xs={4} className="d-flex  justify-content-start">
             <div className={s.headerLeft}>
@@ -58,9 +60,9 @@ function Header() {
             <FontAwesomeIcon icon="fa-brands fa-facebook" size="lg"color="green"/>
             <FontAwesomeIcon icon="fa-brands fa-twitter" size="lg" color="green"/>
           </Col>
-          {/* <hr  className={s.hr}/> */}
+  
         </Row>
-      </Container>
+      </Container> */}
     </div>
   );
 }

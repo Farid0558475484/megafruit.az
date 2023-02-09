@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container,Row, Col } from 'react-bootstrap'
 import Carousel from 'react-bootstrap/Carousel'
-import img1 from './../../img/headerslider1.webp'
+// import img1 from './../../img/headerslider1.webp'
 import img2 from './../../img/headerslider2.webp'
 import img3 from "./../../img/headerslider3.jpeg"
 import img11 from "./../../img/1.1.webp"
@@ -10,6 +10,7 @@ import img13 from "./../../img/1.3.webp"
 import img14 from "./../../img/1.4.webp"
 import s from "./HeaderSlider.module.scss"
 import FreeShipping from '../FreeShipping/FreeShipping'
+import img111 from './../../img/slider111.png'
 
 function HeaderSlider() {
   return (
@@ -18,9 +19,10 @@ function HeaderSlider() {
 <Carousel>
     <Carousel.Item interval={1000}>
       <img
-        className="d-block w-100"
-        src={img1}
+        className="d-block w-100 "
+        src={img111}
         alt="First slide"
+       
       />
       <Carousel.Caption>
       
