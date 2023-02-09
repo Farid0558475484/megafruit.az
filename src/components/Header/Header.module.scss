@@ -9,13 +9,11 @@
 }
 .headerTop {
   background-color: #347758;
-  p {
-    color: white;
-    font-size: 12px;
-    font-weight: 700;
-    margin: 1rem;
-    cursor: default;
-  }
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+
 }
 .headerTopSpan {
   color: #f4c340;
@@ -40,6 +38,19 @@
   color: #3477585c;
 }
 
+.brand {
+  color: #f4c340;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: default;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top:1rem ;
+}
+
+.langButoon{
+  margin-top:1rem ;
+}
+
 @media screen and (max-width: 768px) {
   // .langButoon {
   //   display: none;
@@ -58,3 +69,4 @@
     height: auto;
   }
 }
+

@@ -1,0 +1,32 @@
+{
+  "langCode": "ru",
+  "headertext": "Мега Фрукты",
+  "contacts": "Контакты",
+  "location": "Газахский район, Верхний Салахлы",
+
+  "Fruits": "Фрукты",
+  "Strawberry": "Клубника",
+  "Grapes": "Виноград",
+  "Pear": "Груша",
+  "Lemon": "Лимон",
+  "Kiwi": "Киви",
+  "Cherry": "Вишня",
+  "Grapefruit": "Грейпфрут",
+  "Dragon Fruit": "Дракон Фрукт",
+  "Blueberry": "Черника",
+  "Avocado": "Авокадо",
+  "Durian Thailand": "Дуриан Таиланд",
+  "Mango Fresh": "Манго Фреш",
+
+  "Vegetables": "Овощи",
+  "Cabbage": "Капуста",
+  "Fresh Tomato": "Свежий Помидор",
+  "Eggplant": "Баклажан",
+  "Red Capsicum": "Красный Перец",
+
+  "Dried Fruit": "Сухофрукты",
+  "Almonds": "Миндаль",
+  "Pistachios": "Фисташки",
+  "Dates": "Финики",
+  "Walnuts": "Грецкие Орехи"
+}

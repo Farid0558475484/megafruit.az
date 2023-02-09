@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Container, Row, Col } from "react-bootstrap";
 import s from "./Footer.module.scss";
 import img from "./../../img/viplogo.png";
@@ -9,15 +10,23 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 library.add(faPhone, faLocationDot, faEnvelope);
 
+
+
+
+
+
 function Footer() {
+
+    const { t} = useTranslation();
+ 
   return (
     <div className="mt-5">
       <Container>
         <Row>
           <Col md={6} className="mt-5" >
             <div className={s.left}>
-              <h1 className="mb-5">CONTACTS</h1>
-              <p className={s.p}> <FontAwesomeIcon icon="fa-solid fa-location-dot" />  AZ3532,Gazax rayonu,Yuxari Salahli</p>
+              <h1 className="mb-5">{t("contacts")}</h1>
+              <p className={s.p}> <FontAwesomeIcon icon="fa-solid fa-location-dot" /> {t("location")}</p>
               <p className={s.p}>  <FontAwesomeIcon icon="fa-solid fa-phone" /> + 994 51 571 24 93</p>
               <p className={s.p}><FontAwesomeIcon icon="fa-solid fa-envelope" />  beslogistik_megafruitaz@mail.ru</p>
             </div>
