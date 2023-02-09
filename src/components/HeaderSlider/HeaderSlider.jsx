@@ -2,8 +2,10 @@ import React from 'react'
 import { Container,Row, Col } from 'react-bootstrap'
 import Carousel from 'react-bootstrap/Carousel'
 // import img1 from './../../img/headerslider1.webp'
-import img2 from './../../img/headerslider2.webp'
-import img3 from "./../../img/headerslider3.jpeg"
+// import img2 from './../../img/headerslider2.webp'
+ import img2 from './../../img/1.png'
+// import img3 from "./../../img/headerslider3.jpeg"
+import img3 from "./../../img/2.webp"
 import img11 from "./../../img/1.1.webp"
 import img12 from "./../../img/1.2.webp"
 import img13 from "./../../img/1.3.webp"
@@ -48,6 +50,7 @@ function HeaderSlider() {
 
       </Carousel.Caption>
     </Carousel.Item>
+    
   </Carousel>
 </Container>
 <FreeShipping />

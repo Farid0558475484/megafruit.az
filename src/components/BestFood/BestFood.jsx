@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Container, Row, Col } from "react-bootstrap";
 import s from "./BestFood.module.scss";
 import img2 from "./../../img/6.2.webp";
@@ -8,16 +9,14 @@ import img5 from "./../../img/6.5.webp";
 import img6 from "./../../img/6.6.webp";
 
 function BestFood() {
+  const { t } = useTranslation();
   return (
     <div className={s.img}>
       <Container>
         <Row>
           <div className={s.top}>
-            <h3 className={s.title}>We Grow Best Food</h3>
-            <p className={s.text}>
-              Lorem ipsum dolor sit amet, consectetur elit sed do eiusmod tempor
-              incididunt
-            </p>
+            <h3 className={s.title}>{t("bestfood")}</h3>
+     
           </div>
 
           <Col md={4}>
@@ -28,7 +27,7 @@ function BestFood() {
                 <h1 className={s.titleh1}>01.</h1>
               </div>
 
-              <p className={s.titletext}>Always Fresh</p>
+              <p className={s.titletext}>{t("Always Fresh")}</p>
               <p>
                 Maximus, purus quis tincidunt semper, felis tellus mole stie
                 nulla, in finibus erat magna et tortor phasellus a magna
@@ -43,7 +42,7 @@ function BestFood() {
                 <h1 className={s.titleh1}>02.</h1>
               </div>
 
-              <p className={s.titletext}> 100% Organic</p>
+              <p className={s.titletext}> 100% {t("Organic")}</p>
               <p>
                 Maximus, purus quis tincidunt semper, felis tellus mole stie
                 nulla, in finibus erat magna et tortor phasellus a magna
@@ -64,7 +63,7 @@ function BestFood() {
                 <h1 className={s.titleh1}>03.</h1>
               </div>
 
-              <p className={s.titletext}> Family healthy</p>
+              <p className={s.titletext}> {t("Family healthy")}</p>
               <p>
                 Maximus, purus quis tincidunt semper, felis tellus mole stie
                 nulla, in finibus erat magna et tortor phasellus a magna
@@ -79,7 +78,7 @@ function BestFood() {
                 <h1 className={s.titleh1}>04.</h1>
               </div>
 
-              <p className={s.titletext}>Always Fresh</p>
+              <p className={s.titletext}>{t("The best")}</p>
               <p>
                 Maximus, purus quis tincidunt semper, felis tellus mole stie
                 nulla, in finibus erat magna et tortor phasellus a magna

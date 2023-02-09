@@ -4,5 +4,11 @@
 
 .fluider{
     --bs-gutter-x: 0rem;
-    margin-top: 30px;
+    margin-top: 50px;
 }
+@media screen and (min-width: 768px) {
+.headerslidermain{
+    margin-top: 70px;
+}
+}
+    

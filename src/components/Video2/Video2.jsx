@@ -10,7 +10,7 @@ function Video2() {
             <iframe
               width="100%"
               height="315"
-              src="https://www.youtube.com/embed/ZqanAJsP60A"
+              src="https://www.youtube.com/embed/PreJaUEyvNY"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -21,7 +21,7 @@ function Video2() {
             <iframe
               width="100%"
               height="315"
-              src="https://www.youtube.com/embed/6T-OKifzYsc"
+              src="https://www.youtube.com/embed/5foaz6jHRHc"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -32,16 +32,17 @@ function Video2() {
             <iframe
               width="100%"
               height="315"
-              src="https://www.youtube.com/embed/Usvpp2V1m9A"
+              src="https://www.youtube.com/embed/bEDzegiC1DM"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
           </Col>
+
           <Col md={6}>
             <iframe
-          width="100%"
+              width="100%"
               height="315"
               src="https://www.youtube.com/embed/DejrykQp-GI"
               title="YouTube video player"
