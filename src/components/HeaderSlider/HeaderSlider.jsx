@@ -3,7 +3,7 @@ import { Container,Row, Col } from 'react-bootstrap'
 import Carousel from 'react-bootstrap/Carousel'
 // import img1 from './../../img/headerslider1.webp'
 // import img2 from './../../img/headerslider2.webp'
- import img2 from './../../img/1.png'
+ import img2 from './../../img/f1.png'
 // import img3 from "./../../img/headerslider3.jpeg"
 import img3 from "./../../img/2.webp"
 import img11 from "./../../img/1.1.webp"
@@ -12,7 +12,7 @@ import img13 from "./../../img/1.3.webp"
 import img14 from "./../../img/1.4.webp"
 import s from "./HeaderSlider.module.scss"
 import FreeShipping from '../FreeShipping/FreeShipping'
-import img111 from './../../img/slider111.png'
+import img111 from './../../img/s1.png'
 
 function HeaderSlider() {
   return (

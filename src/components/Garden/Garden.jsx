@@ -4,12 +4,12 @@ import img1 from "./../../img/4.1.jpeg";
 import img2 from "./../../img/4.2.jpeg";
 import img3 from "./../../img/4.3.jpeg";
 import s from "./Garden.module.scss";
-import img51 from "./../../img/5.1.svg";
+import img51 from "./../../img/p1.jpg";
 import img52 from "./../../img/5.2.svg";
-import img53 from "./../../img/5.3.svg";
+import img53 from "./../../img/p4.jpg";
 import img54 from "./../../img/5.4.svg";
 // import img55 from "./../../img/5.5.svg";
-import img56 from "./../../img/5.6.svg";
+import img56 from "./../../img/p3.jpg";
 import Video from "./../Video/Video";
 
 function Garden() {

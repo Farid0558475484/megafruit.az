@@ -5,10 +5,10 @@ import { useTranslation } from "react-i18next";
 
 import img1 from "./../../img/2.1.avif";
 import img2 from "./../../img/2.2.avif";
-import img3 from "./../../img/2.3.avif";
+// import img3 from "./../../img/2.3.avif";
 import img4 from "./../../img/2.4.avif";
 import img5 from "./../../img/2.5.avif";
-import img6 from "./../../img/2.6.avif";
+// import img6 from "./../../img/2.6.avif";
 
 function TopFavorite() {
 

@@ -22,7 +22,7 @@ function BestFood() {
             <div className={s.content}>
               <div className={s.imgh1}>
                 <img src={img3} alt="1234" className="img-fluid" />
-                <h1 className={s.titleh1}>01.</h1>
+                {/* <h1 className={s.titleh1}>01.</h1> */}
               </div>
 
               <p className={s.titletext}>{t("Always Fresh")}</p>
@@ -34,7 +34,7 @@ function BestFood() {
             <div className={s.content}>
               <div className={s.imgh1}>
                 <img src={img4} alt="1234" className="img-fluid" />
-                <h1 className={s.titleh1}>02.</h1>
+                {/* <h1 className={s.titleh1}>02.</h1> */}
               </div>
 
               <p className={s.titletext}> 100% {t("Organic")}</p>
@@ -52,7 +52,7 @@ function BestFood() {
             <div className={s.content}>
               <div className={s.imgh1}>
                 <img src={img5} alt="1234" className="img-fluid" />
-                <h1 className={s.titleh1}>03.</h1>
+                {/* <h1 className={s.titleh1}>03.</h1> */}
               </div>
 
               <p className={s.titletext}> {t("Family healthy")}</p>
@@ -64,7 +64,7 @@ function BestFood() {
             <div className={s.content}>
               <div className={s.imgh1}>
                 <img src={img6} alt="1234" className="img-fluid" />
-                <h1 className={s.titleh1}>04.</h1>
+                {/* <h1 className={s.titleh1}>04.</h1> */}
               </div>
 
               <p className={s.titletext}>{t("The best")}</p>
