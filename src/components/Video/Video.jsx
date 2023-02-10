@@ -8,9 +8,9 @@ function Video() {
         <Row>
           <Col md={6}>
             <iframe
-                 width="100%"
+              width="100%"
               height="315"
-              src="https://www.youtube.com/embed/r6ElgaxlcR8"
+              src="https://www.youtube.com/embed/0TP4pvyHT4c"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -20,33 +20,9 @@ function Video() {
 
           <Col md={6}>
             <iframe
-              width="100%"
+                  width="100%"
               height="315"
-              src="https://www.youtube.com/embed/7Ol8KlPoGWY"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-          </Col>
-
-          <Col md={6}>
-            <iframe
-              width="100%"
-              height="315"
-              src="https://www.youtube.com/embed/g19A9Cx5UrM"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-          </Col>
-
-          <Col md={6}>
-            <iframe
-              width="100%"
-              height="315"
-              src="https://www.youtube.com/embed/Dg27UULkRyo"
+              src="https://www.youtube.com/embed/o7Ufvtj_Mzc"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

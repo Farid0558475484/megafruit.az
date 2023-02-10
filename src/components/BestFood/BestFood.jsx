@@ -16,37 +16,30 @@ function BestFood() {
         <Row>
           <div className={s.top}>
             <h3 className={s.title}>{t("bestfood")}</h3>
-     
           </div>
 
           <Col md={4}>
             <div className={s.content}>
               <div className={s.imgh1}>
-        
                 <img src={img3} alt="1234" className="img-fluid" />
                 <h1 className={s.titleh1}>01.</h1>
               </div>
 
               <p className={s.titletext}>{t("Always Fresh")}</p>
               <p>
-                Maximus, purus quis tincidunt semper, felis tellus mole stie
-                nulla, in finibus erat magna et tortor phasellus a magna
-                lobortis
+             {t("best1")}
               </p>
             </div>
 
             <div className={s.content}>
               <div className={s.imgh1}>
-        
                 <img src={img4} alt="1234" className="img-fluid" />
                 <h1 className={s.titleh1}>02.</h1>
               </div>
 
               <p className={s.titletext}> 100% {t("Organic")}</p>
               <p>
-                Maximus, purus quis tincidunt semper, felis tellus mole stie
-                nulla, in finibus erat magna et tortor phasellus a magna
-                lobortis
+              {t("best2")}
               </p>
             </div>
           </Col>
@@ -56,33 +49,27 @@ function BestFood() {
             </div>
           </Col>
           <Col md={4}>
-          <div className={s.content}>
+            <div className={s.content}>
               <div className={s.imgh1}>
-        
                 <img src={img5} alt="1234" className="img-fluid" />
                 <h1 className={s.titleh1}>03.</h1>
               </div>
 
               <p className={s.titletext}> {t("Family healthy")}</p>
               <p>
-                Maximus, purus quis tincidunt semper, felis tellus mole stie
-                nulla, in finibus erat magna et tortor phasellus a magna
-                lobortis
+        {t("best3")}
               </p>
             </div>
 
             <div className={s.content}>
               <div className={s.imgh1}>
-        
                 <img src={img6} alt="1234" className="img-fluid" />
                 <h1 className={s.titleh1}>04.</h1>
               </div>
 
               <p className={s.titletext}>{t("The best")}</p>
               <p>
-                Maximus, purus quis tincidunt semper, felis tellus mole stie
-                nulla, in finibus erat magna et tortor phasellus a magna
-                lobortis
+          {t("best4")}
               </p>
             </div>
           </Col>
