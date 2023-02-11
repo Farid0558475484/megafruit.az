@@ -6,7 +6,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Container, Row, Col } from "react-bootstrap";
 import s from "./Footer.module.scss";
-import img from "./../../img/a1.png";
+import img from "./../../img/logo999.png";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
